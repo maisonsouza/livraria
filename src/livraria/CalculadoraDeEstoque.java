@@ -14,6 +14,16 @@ public class CalculadoraDeEstoque {
 		}else{
 			System.out.println("Seu estoque está suficiente");
 		}
+		int contador=1;
+		while(contador<=3){
+			System.out.println("Volta "+contador);
+			contador++;
+		}
+		
+		for(int a=1;a<=5;a++){
+			
+			System.out.println("Imprimindo 5 vezes");
+		}
 	}
 
 }
