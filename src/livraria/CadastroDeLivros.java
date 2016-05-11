@@ -14,6 +14,17 @@ public class CadastroDeLivros {
 		System.out.println(livro.valor);
 		System.out.println(livro.isbn);
 		
+		Livro outrolivro = new Livro();
+		outrolivro.nome="Lógica de Programação";
+		outrolivro.descricao="Crie seus primeiros programas";
+		outrolivro.valor=59.78;
+		outrolivro.isbn="154984-4554-44654";
+		System.out.println("--------------------------------------");
+		System.out.println(outrolivro.nome);
+		System.out.println(outrolivro.descricao);
+		System.out.println(outrolivro.valor);
+		System.out.println(outrolivro.isbn);
+		
 
 	}
 
