@@ -19,6 +19,18 @@ public class CadastroDeLivros {
 		outrolivro.isbn="154984-4554-44654";
 		outrolivro.mostrarDetalhes();
 		
+		Autor autor = new Autor();
+		autor.nome="Mauricio Aniche";
+		autor.cpf="98788448451";
+		autor.email="mauricio.aniche@caelum.com.br";
+		livro.autor=autor;
+		
+		Autor outroautor = new Autor();
+		outroautor.nome="Rodrigo Silveira";
+		outroautor.cpf="645654646";
+		outroautor.email="rodrigo.silveira@caelum.com.br";
+		outrolivro.autor=outroautor;
+		
 
 	}
 
