@@ -9,7 +9,7 @@ public class CadastroDeLivros {
 		livro.valor=59.90;
 		livro.isbn="978-2855-2547";
 		
-		livro.mostrarDetalhes();
+		
 		livro.adicionaLinha();
 		
 		Livro outrolivro = new Livro();
@@ -17,19 +17,22 @@ public class CadastroDeLivros {
 		outrolivro.descricao="Crie seus primeiros programas";
 		outrolivro.valor=59.78;
 		outrolivro.isbn="154984-4554-44654";
-		outrolivro.mostrarDetalhes();
+		
 		
 		Autor autor = new Autor();
 		autor.nome="Mauricio Aniche";
 		autor.cpf="98788448451";
 		autor.email="mauricio.aniche@caelum.com.br";
 		livro.autor=autor;
+		livro.mostrarDetalhes();
 		
+		livro.adicionaLinha();
 		Autor outroautor = new Autor();
 		outroautor.nome="Rodrigo Silveira";
 		outroautor.cpf="645654646";
 		outroautor.email="rodrigo.silveira@caelum.com.br";
 		outrolivro.autor=outroautor;
+		outrolivro.mostrarDetalhes();
 		
 
 	}
