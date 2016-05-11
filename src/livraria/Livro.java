@@ -15,5 +15,9 @@ public class Livro {
 		System.out.println(valor);
 		System.out.println(isbn);
 		}
+	
+	void adicionaLinha(){
+		System.out.println("_____________________________________________");
+	}
 
 }
