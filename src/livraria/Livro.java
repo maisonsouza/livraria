@@ -8,6 +8,10 @@ public class Livro {
 	String isbn;
 	Autor autor;
 	
+	public Livro(){
+		System.out.println("Novo livro criado");
+	}
+	
 	void mostrarDetalhes() {
 		String mensagem="Imprimindo detalhes do livro";
 		System.out.println(mensagem);
