@@ -34,6 +34,10 @@ public class CadastroDeLivros {
 		outrolivro.autor=outroautor;
 		outrolivro.mostrarDetalhes();
 		
+		livro.aplicaDesdeconto(0.1);
+		livro.aplicaDesdeconto(0.3);
+		livro.aplicaDesdeconto(0.4);
+		
 
 	}
 

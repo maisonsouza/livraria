@@ -29,7 +29,13 @@ public class Livro {
 	}
 	
 	public void aplicaDesdeconto(double desconto){
-		this.valor -= this.valor * desconto;
+		
+		if(desconto > 0.3){
+			System.out.println("Desconto não pode ser maior que 30%");
+		}else{
+			this.valor -= this.valor * desconto;
+			System.out.println(valor);
+		}
 	}
 	
 	boolean temAutor(){
