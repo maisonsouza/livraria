@@ -4,34 +4,34 @@ public class CadastroDeLivros {
 
 	public static void main(String[] args) {
 		Livro livro = new Livro();
-		livro.nome="Java 8 Prático";
-		livro.descricao="Novos recursos da linguagem";
-		livro.valor=59.90;
-		livro.isbn="978-2855-2547";
+		livro.setNome("Java 8 Prático");
+		livro.setDescricao("Novos recursos da linguagem");
+		livro.setValor(59.90);
+		livro.setIsbn("978-2855-2547");
 		
 		
 		livro.adicionaLinha();
 		
 		Livro outrolivro = new Livro();
-		outrolivro.nome="Lógica de Programação";
-		outrolivro.descricao="Crie seus primeiros programas";
-		outrolivro.valor=59.78;
-		outrolivro.isbn="154984-4554-44654";
+		outrolivro.setNome("Lógica de Programação");
+		outrolivro.setDescricao("Crie seus primeiros programas");
+		outrolivro.setValor(25.68);
+		outrolivro.setIsbn("154984-4554-44654");
 		
 		
 		Autor autor = new Autor();
-		autor.nome="Mauricio Aniche";
-		autor.cpf="98788448451";
-		autor.email="mauricio.aniche@caelum.com.br";
-		livro.autor=autor;
+		autor.setNome("Mauricio Aniche");
+		autor.setCpf("845244525854");
+		autor.setEmail("mauricio.aniche@caelum.com.br");
+		livro.setAutor(autor);
 		livro.mostrarDetalhes();
 		
 		livro.adicionaLinha();
 		Autor outroautor = new Autor();
-		outroautor.nome="Rodrigo Silveira";
-		outroautor.cpf="645654646";
-		outroautor.email="rodrigo.silveira@caelum.com.br";
-		outrolivro.autor=outroautor;
+		outroautor.setNome("Maison Marcel");
+		outroautor.setCpf("98225723289");
+		outroautor.setEmail("rodrigo.silveira@caelum.com.br");
+		outrolivro.setAutor(outroautor);
 		outrolivro.mostrarDetalhes();
 		
 		livro.aplicaDesdeconto(0.1);
